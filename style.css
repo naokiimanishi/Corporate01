@@ -30,7 +30,7 @@
         margin: 5vw;
     }
     #header_item h1 {
-        font-size: 10vw;
+        font-size: 5vw;
         color: white;
     }
     #header_nav {
@@ -41,7 +41,7 @@
     }
     #header_nav li {
         padding: 0 2vw;
-        font-size: 5vw;
+        font-size: 2vw;
         color: white;
     }
     #header_item div {
@@ -49,7 +49,7 @@
     }
     #header_item div p {
         color: white;
-        font-size: 5vw;
+        font-size: 2vw;
     }
     #flag {
         display: none;
@@ -67,7 +67,7 @@
         z-index: 100;
         right: 5%;
         bottom: 10%;
-        font-size: 8vw;
+        font-size: 4vw;
     }
     #top img {
         width: 100%;
@@ -85,14 +85,14 @@
         padding: 5% 5% 10% 5%;
     }
     #News h2 {
-        font-size: 8vw;
+        font-size: 4vw;
     }
     #News h3 {
-        font-size: 7vw;
+        font-size: 3vw;
         margin: 0.5vw;
     }
     #News p {
-        font-size: 5vw;
+        font-size: 2vw;
     }
     #News ul {
         margin: 3vw;
@@ -110,16 +110,16 @@
         position: relative;
     }
     #Service h2 {
-        font-size: 8vw;
+        font-size: 4vw;
         color: white;
     }
     #Service h3 {
-        font-size: 7vw;
+        font-size: 3vw;
         margin: 0.5vw;
         color: white;
     }
     #Service p {
-        font-size: 5vw;
+        font-size: 2vw;
         color: white;
     }
     #Service_title {
@@ -157,16 +157,16 @@
         position: relative;
     }
     #Recruitment h2 {
-        font-size: 8vw;
+        font-size: 4vw;
         color: white;
     }
     #Recruitment h3 {
-        font-size: 7vw;
+        font-size: 3vw;
         margin: 0.5vw;
         color: white;
     }
     #Recruitment p {
-        font-size: 5vw;
+        font-size: 2vw;
         color: white;
     }
     #Recruitment_title {
@@ -210,14 +210,14 @@
         text-align: center;
     }
     #Contact h2 {
-        font-size: 8vw;
+        font-size: 4vw;
     }
     #Contact h3 {
-        font-size: 7vw;
+        font-size: 3vw;
         margin: 0.5vw;
     }
     #Contact p {
-        font-size: 5vw;
+        font-size: 2vw;
     }
     #Contact_title {
         width: 100%;
@@ -243,7 +243,7 @@
     }
     #Contact_form label {
         margin: 2vw 0;
-        font-size: 5vw;
+        font-size: 2vw;
     }
     #Contact_form textarea {
         width: 100%;
@@ -251,7 +251,7 @@
     }
     #submitB {
         text-align: center;
-        font-size: 5vw;
+        font-size: 2vw;
         margin: 0 auto;
     }
     #submitA {
@@ -278,13 +278,13 @@
     }
     #footer_nav li {
         margin: 0 2vw;
-        font-size: 5vw;
+        font-size: 2vw;
     }
     #small {
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        font-size: 5vw;
+        font-size: 2vw;
     }
 }
 
