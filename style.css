@@ -41,7 +41,7 @@
     }
     #header_nav li {
         padding: 0 2vw;
-        font-size: 2vw;
+        font-size: 2.5vw;
         color: white;
     }
     #header_item div {
@@ -49,7 +49,7 @@
     }
     #header_item div p {
         color: white;
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     #flag {
         display: none;
@@ -92,7 +92,7 @@
         margin: 0.5vw;
     }
     #News p {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     #News ul {
         margin: 3vw;
@@ -119,7 +119,7 @@
         color: white;
     }
     #Service p {
-        font-size: 2vw;
+        font-size: 2.5vw;
         color: white;
     }
     #Service_title {
@@ -166,7 +166,7 @@
         color: white;
     }
     #Recruitment p {
-        font-size: 2vw;
+        font-size: 2.5vw;
         color: white;
     }
     #Recruitment_title {
@@ -217,7 +217,7 @@
         margin: 0.5vw;
     }
     #Contact p {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     #Contact_title {
         width: 100%;
@@ -243,7 +243,7 @@
     }
     #Contact_form label {
         margin: 2vw 0;
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     #Contact_form textarea {
         width: 100%;
@@ -251,7 +251,7 @@
     }
     #submitB {
         text-align: center;
-        font-size: 2vw;
+        font-size: 2.5vw;
         margin: 0 auto;
     }
     #submitA {
@@ -278,13 +278,13 @@
     }
     #footer_nav li {
         margin: 0 2vw;
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     #small {
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 }
 
