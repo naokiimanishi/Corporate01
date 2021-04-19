@@ -1,0 +1,562 @@
+@media screen and (max-width:599px) {
+    html {
+        height: 100%;
+    }
+    body {
+        font-family: 'Noto Serif JP', serif;
+        height: 100%;
+        margin: 0;
+        background-color: white;
+    }
+    main {
+        overflow: hidden;
+    }
+    #wrap {
+        width: 100%;
+        margin: 0 auto;
+    }
+    /*headerの装飾*/
+    header {
+        padding: 1.5vw;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        background-color: black;
+    }
+    #header_item {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 5vw;
+    }
+    #header_item h1 {
+        font-size: 4vw;
+        color: white;
+    }
+    #header_nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    #header_nav li {
+        padding: 0 2vw;
+        font-size: 1vw;
+        color: white;
+    }
+    #header_item div {
+        color: white;
+    }
+    #header_item div p {
+        color: white;
+        font-size: 1vw;
+    }
+    #flag {
+        display: none;
+    }
+    #covered {
+        display: none;
+    }
+    /*topの装飾*/
+    #top {
+        position: relative;
+    }
+    #top h2 {
+        position: absolute;
+        color: white;
+        z-index: 100;
+        right: 5%;
+        bottom: 10%;
+        font-size: 4vw;
+    }
+    #top img {
+        width: 100%;
+        height: 100vh;
+        filter: brightness(50%);
+    }
+    /*Newsの装飾*/
+    .News {
+        display: flex;
+        align-items: center;
+        border-bottom: dotted 1px black;
+    }
+    #News {
+        text-align: center;
+        padding: 5% 5% 10% 5%;
+    }
+    #News h2 {
+        font-size: 1.5vw;
+    }
+    #News h3 {
+        font-size: 1.2vw;
+        margin: 0.5vw;
+    }
+    #News p {
+        font-size: 1vw;
+    }
+    #News ul {
+        margin: 3vw;
+    }
+    .Date {
+        margin: 0.7vw 5vw;
+    }
+    .News_info {
+        margin: 0.7vw 1.7vw;
+    }
+    /*Serviceの装飾*/
+    #Service {
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+    #Service h2 {
+        font-size: 3vw;
+        color: white;
+    }
+    #Service h3 {
+        font-size: 2.5vw;
+        margin: 0.5vw;
+        color: white;
+    }
+    #Service p {
+        font-size: 1vw;
+        color: white;
+    }
+    #Service_title {
+        padding: 1.5vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        margin: auto;
+    }
+    #Service_title p {
+        padding: 5%;
+    }
+    #Service_text {
+        margin: 1.5vw;
+    }
+    #Service_img img {
+        width: 100%;
+    }
+    #Service_anchor {
+        border: solid 3px white;
+        width: 80%;
+        margin: 0 auto;
+        padding: 2%;
+    }
+    #Service_anchor a {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    /*Recruitmentの装飾*/
+    #Recruitment {
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+    #Recruitment h2 {
+        font-size: 3vw;
+        color: white;
+    }
+    #Recruitment h3 {
+        font-size: 2.5vw;
+        margin: 0.5vw;
+        color: white;
+    }
+    #Recruitment p {
+        font-size: 1vw;
+        color: white;
+    }
+    #Recruitment_title {
+        padding: 1.5vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        margin: auto;
+        z-index: 900;
+    }
+    #Recruitment_title p {
+        padding: 5%;
+    }
+    #Recruitment_text {
+        margin: 1.5vw;
+    }
+    #Recruitment_img {
+        width: 100%;
+    }
+    #Recruitment div img {
+        width: 100%;
+        filter: brightness(50%);
+    }
+    #Recruitment_anchor {
+        border: solid 3px white;
+        width: 80%;
+        margin: 0 auto;
+        padding: 2%;
+    }
+    #Recruitment_anchor a {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    /*Contectの装飾*/
+    #Contact {
+        margin: 0 auto;
+        padding: 2vw 0;
+        width: 100%;
+        text-align: center;
+    }
+    #Contact h2 {
+        font-size: 3vw;
+    }
+    #Contact h3 {
+        font-size: 2.5vw;
+        margin: 0.5vw;
+    }
+    #Contact p {
+        font-size: 1.2vw;
+    }
+    #Contact_title {
+        width: 100%;
+        margin: 1.5vw;
+    }
+    #Contact_text {
+        margin: 0 auto;
+        padding: 2vw;
+        width: 70%;
+        text-align: center;
+    }
+    #Contact_form {
+        width: 70%;
+        margin: 2vw auto;
+    }
+    #Contact_form div {
+        margin: 1.5vw 0;
+    }
+    #Contact_form input {
+        display: block;
+        margin: 0.7vw auto;
+        width: 100%;
+    }
+    #Contact_form label {
+        margin: 2vw 0;
+        font-size: 1vw;
+    }
+    #Contact_form textarea {
+        width: 100%;
+        margin: 0.7vw 0;
+    }
+    #submitB {
+        text-align: center;
+        font-size: 1.3vw;
+        margin: 0 auto;
+    }
+    #submitA {
+        width: 50%;
+        display: block;
+    }
+    .textbox {
+        padding: 1%;
+        border-radius: 3px;
+        border: 2px solid #ddd;
+    }
+    /*footerの装飾*/
+    footer {
+        width: 100%;
+        padding: 1.5vw;
+        background-color: black;
+        color: white;
+    }
+    #footer_nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1.5vw;
+    }
+    #footer_nav li {
+        margin: 0 2vw;
+        font-size: 1vw;
+    }
+    #small {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1vw;
+    }
+}
+
+@media screen and (min-width:600px) {
+    /*デフォルト*/
+    html {
+        height: 100%;
+    }
+    body {
+        font-family: 'Noto Serif JP', serif;
+        height: 100%;
+        margin: 0;
+        background-color: white;
+    }
+    main {
+        overflow: hidden;
+    }
+    #wrap {
+        width: 100%;
+        margin: 0 auto;
+    }
+    /*headerの装飾*/
+    header {
+        padding: 1.5vw;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        background-color: black;
+    }
+    #header_item {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 1vw 0;
+    }
+    #header_item h1 {
+        font-size: 1.8vw;
+        color: white;
+    }
+    #header_nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #header_nav li {
+        padding: 0 2vw;
+        font-size: 1vw;
+        color: white;
+    }
+    #header_item div {
+        color: white;
+    }
+    #flag {
+        display: none;
+    }
+    #covered {
+        display: none;
+    }
+    /*topの装飾*/
+    #top {
+        position: relative;
+    }
+    #top h2 {
+        position: absolute;
+        color: white;
+        z-index: 100;
+        right: 5%;
+        bottom: 10%;
+        font-size: 4vw;
+    }
+    #top img {
+        width: 100%;
+        height: 100vh;
+        filter: brightness(50%);
+    }
+    /*Newsの装飾*/
+    .News {
+        display: flex;
+        align-items: center;
+        border-bottom: dotted 1px black;
+    }
+    #News {
+        text-align: center;
+        padding: 5% 5% 10% 5%;
+    }
+    #News h2 {
+        font-size: 1.5vw;
+    }
+    #News h3 {
+        font-size: 1.2vw;
+        margin: 0.5vw;
+    }
+    #News p {
+        font-size: 1vw;
+    }
+    #News ul {
+        margin: 3vw;
+    }
+    .Date {
+        margin: 0.7vw 5vw;
+    }
+    .News_info {
+        margin: 0.7vw 1.7vw;
+    }
+    /*Serviceの装飾*/
+    #Service {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    #Service h2 {
+        font-size: 1.5vw;
+    }
+    #Service h3 {
+        font-size: 1.2vw;
+        margin: 0.5vw;
+    }
+    #Service p {
+        font-size: 1vw;
+    }
+    #Service_title {
+        width: 50%;
+        padding: 1.5vw;
+        height: 100%;
+        position: relative;
+    }
+    #Service_text {
+        margin: 1.5vw;
+    }
+    #Service_img {
+        width: 50%;
+    }
+    #Service div img {
+        width: 100%;
+    }
+    #Service_anchor {
+        border-radius: 30px;
+        background-color: rgb(255, 130, 110);
+        width: 40%;
+        margin: 0 auto;
+        padding: 2%;
+    }
+    #Service_anchor a {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    /*Recruitmentの装飾*/
+    #Recruitment {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    #Recruitment h2 {
+        font-size: 1.5vw;
+    }
+    #Recruitment h3 {
+        font-size: 1.2vw;
+        margin: 0.5vw;
+    }
+    #Recruitment p {
+        font-size: 1vw;
+    }
+    #Recruitment_title {
+        width: 50%;
+        padding: 1.5vw;
+    }
+    #Recruitment_text {
+        margin: 1.5vw;
+    }
+    #Recruitment_img {
+        width: 50%;
+    }
+    #Recruitment div img {
+        width: 100%;
+    }
+    #Recruitment_anchor {
+        border-radius: 30px;
+        background-color: rgb(255, 130, 110);
+        width: 40%;
+        margin: 0 auto;
+        padding: 2%;
+    }
+    #Recruitment_anchor a {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    /*Contectの装飾*/
+    #Contact {
+        margin: 0 auto;
+        padding: 2vw 0;
+        width: 100%;
+        text-align: center;
+    }
+    #Contact h2 {
+        font-size: 1.5vw;
+    }
+    #Contact h3 {
+        font-size: 1.2vw;
+        margin: 0.5vw;
+    }
+    #Contact p {
+        font-size: 1vw;
+    }
+    #Contact_title {
+        width: 100%;
+        margin: 1.5vw;
+    }
+    #Contact_text {
+        margin: 0 auto;
+        padding: 2vw;
+        width: 50%;
+        text-align: center;
+    }
+    #Contact_form {
+        width: 50%;
+        margin: 2vw auto;
+    }
+    #Contact_form div {
+        margin: 1.5vw 0;
+    }
+    #Contact_form input {
+        display: block;
+        margin: 0.7vw auto;
+        width: 100%;
+    }
+    #Contact_form label {
+        margin: 2vw 0;
+        font-size: 1vw;
+    }
+    #Contact_form textarea {
+        width: 100%;
+        margin: 0.7vw 0;
+    }
+    #submitB {
+        text-align: center;
+        font-size: 1.3vw;
+        margin: 0 auto;
+    }
+    #submitA {
+        width: 50%;
+        display: block;
+    }
+    .textbox {
+        padding: 2%;
+        border-radius: 3px;
+        border: 2px solid #ddd;
+    }
+    /*footerの装飾*/
+    footer {
+        width: 100%;
+        padding: 1.5vw;
+        background-color: black;
+    }
+    #footer_nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 1.5vw;
+        color: white;
+    }
+    #footer_nav li {
+        margin: 0 2vw;
+        font-size: 1vw;
+    }
+    #small {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1vw;
+        color: white;
+    }
+}
