@@ -1,4 +1,4 @@
-@media screen and (max-width:599px) {
+@media screen and (max-width:719px) {
     html {
         height: 100%;
     }
@@ -288,7 +288,7 @@
     }
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:720px) {
     /*デフォルト*/
     html {
         height: 100%;
